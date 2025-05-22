@@ -1,0 +1,175 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: arial;
+}
+.blog{
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  margin: 30px 200px;
+}
+.blog .link{
+  text-decoration: none;
+}
+
+@media screen and(max-width:560px) {body{background-color: beige;}
+section{background-color: green;}
+}
+
+#home {
+  background-color: #d75400;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+header{
+  display: flex;
+  text-align: center;
+  background-color: #f5eedc;
+}
+
+header h1{
+  font-family: broadwahy;
+  sans-serif;
+  margin: 30px auto;
+  color: #525037;
+}
+
+header h1 .red{
+  color: #d75400;
+}
+
+nav {
+  display: flex;
+  background-image: url("1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 100%;
+  padding: 0;
+  justify-content: center;
+}
+
+.pic{
+  padding: 0;
+  margin: 10px;
+  margin-left: 0;
+}
+
+.all{
+  margin: 75px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+p a{
+  color: red;
+  text-decoration: none;
+}
+
+.no{
+  margin-top: 0;
+  margin-bottom: 30px;
+  margin-left: 75px;
+}
+
+.no a{
+  background-color: black;
+  padding: 6px;
+  gap: 5px;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 0;
+}
+
+.number1:visited{
+  background-color: #ba3b34;
+}
+
+section{
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 80px auto;
+}
+
+section img{
+  float: left;
+  border: 1px solid black;
+  margin: 20px;
+  margin-left: 0;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+#p1{
+  margin-top: 55px;
+}
+
+.after{
+  margin-top: 0;
+}
+
+.list{
+  display: flex;
+  gap: 40px;
+  justify-content: flex-start;
+}
+
+ul .foood{
+  list-style-type: none;
+  margin-left: 0;
+}
+
+.food li::before{content: "✔";
+  color: red;
+  margin-right: 10px;
+  margin-left: 0;
+}
+
+.post h1, .post2 h1{
+  font-size: 28px;
+}
+
+.post h1{
+  margin-bottom: 0;
+}
+
+article{
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.italic{
+  color: red;
+  font-size: italic;
+}
+
+#elenent{
+  margin-left: 130px;
+}
+
+footer{
+  background-color: #393631;
+  text-align: center;
+  height: 40px;
+  width: 100%;
+  color: white;
+  padding: 20px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.span{
+  color: #504c31;
+}
+
+.post .red{
+  color: red;
+}

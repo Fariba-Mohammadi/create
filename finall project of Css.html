@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fresh Zone</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f5f5f5;
+}
+
+header {
+  background: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.logo span {
+  color: orange;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #000;
+}
+
+nav .active a {
+  background: red;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.hero {
+  display: flex;
+  background: #e0d5b5;
+  padding: 20px;
+  padding-left: 150px;
+}
+
+.hero img {
+  width: 300px;
+  margin-right: 5px;
+}
+
+.hero-text h2 {
+  margin-top: 0;
+}
+
+.slider-nav span {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.slider-nav .active {
+  font-weight: bold;
+  background: #000;
+  color: #fff;
+  padding: 2px 6px;
+}
+
+.content {
+  padding: 20px;
+}
+
+.posts {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 40px;
+  padding-left: 100px;
+}
+
+.posts article {
+  flex: 1;
+}
+
+.gallery h2 {
+  margin-bottom: 20px;
+  padding-left: 90px;
+}
+
+.gallery-items {
+  display: flex;
+  gap: 20px;
+}
+
+.gallery-items div {
+  text-align: center;
+}
+
+.gallery-items img {
+  width: 150px;
+  height: 80px;
+  object-fit: cover;
+  /* display: inline-block; */
+  /* margin: auto; */
+  padding-left: 100px;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  height: 60px;
+}
+.p1 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.headere {
+    background-color:  #f5eedc ;
+}
+
+  </style>
+</head>
+<body>
+
+  <header class="header">
+    <div class="logo">FRESH<span>ZONE</span></div>
+    <nav>
+      <ul>
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <img src="2.jpg" alt="Oranges">
+    <div class="hero-text">
+      <h2>Dolor sit amet</h2>
+      <p>Pellentesque quis velit augue, sit amet ultricies dui...</p>
+      <a href="#">Read more</a>
+      <div class="slider-nav">
+        <span>1</span><span class="active">2</span><span>3</span>
+      </div>
+    </div>
+  </section>
+
+  <main class="content">
+    <section class="posts">
+      <article>
+        <h3>Recent Post: Phasellus lobortis faucibus</h3>
+        <img src="3.jpg" alt="Food image">
+        <p><i>Morbi orci velit, accumsan a posuere id...</i></p>
+        <p>Fresh Zone is free css template provided by templatemo...</p>
+      </article>
+
+      <article>
+        <h3>Recent Post: Integer hendrerit sapien ut</h3>
+        <ul>
+          <li>Vivamus semper ipsum</li>
+          <li>Mauris iaculis sapien</li>
+          <li>Nunc id pulvinar ante</li>
+          <li>Dictum quis consectetur</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="gallery">
+      <h2>Food Gallery</h2>
+      <div class="gallery-items">
+        <div><img src="3.jpg"><h4>Web Design</h4></div>
+        <div><img src="4.jpg"><h4>Ecommerce Solution</h4></div>
+        <div><img src="5.jpg"><h4>Gallery Player</h4></div>
+        <div><img src="6.jpg"><h4>Customer Support</h4></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p class="p1">Copyright © 2048 Your Company Name | Website Templates by Free CSS Templates</p>
+  </footer>
+
+</body>
+</html>
